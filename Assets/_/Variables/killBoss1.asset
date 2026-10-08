@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f3ad3d94c76a74ffaae15625647ada6a, type: 3}
-  m_Name: killBoss
+  m_Name: killBoss1
   m_EditorClassIdentifier: ColliderEventSystem::ColliderEventSystem.BoolVariable
   m_Id: 0bd64e9c79354b74b0e9bcaf92881b55
   Persistent: 0

@@ -28307,7 +28307,7 @@ MonoBehaviour:
   halfTurnDuration: 0.25
   maxAngleToMove: 30
   runWhenChasing: 1
-  chaseSpeed: 4
+  chaseSpeed: 3
   animator: {fileID: 1857795329}
   walkParameter: walking
   chaseParameter: run

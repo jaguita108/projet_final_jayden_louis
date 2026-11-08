@@ -1,10 +1,21 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class CursorLock : MonoBehaviour
+public class MainMenu : MonoBehaviour
 {
-    private void Start()
+    [SerializeField] private string gameSceneName = "Game";
+
+    public void Play()
     {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        Time.timeScale = 1f; // au cas où le jeu aurait été mis en pause avant
+        SceneManager.LoadScene(gameSceneName);
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false; // fait aussi quitter dans l'éditeur
+#endif
     }
 }

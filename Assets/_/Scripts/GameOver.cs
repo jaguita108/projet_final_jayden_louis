@@ -6,6 +6,14 @@ public class GameOver : MonoBehaviour
     [SerializeField] private string menuSceneName = "MainMenu";
     [SerializeField] private string endSceneName = "Fin";
 
+    [SerializeField] private string gameSceneName = "Game";
+
+    public void RestartGame()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(gameSceneName);
+    }
+
     // Recommence la scène en cours
     public void Restart()
     {

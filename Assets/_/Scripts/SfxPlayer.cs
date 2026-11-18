@@ -22,7 +22,15 @@ public class SfxPlayer : MonoBehaviour
 
         if (clips == null || clips.Length == 0) return;
 
+        AudioClip chosen = clips[Random.Range(0, clips.Length)];
+        if (chosen == null)
+        {
+            Debug.LogWarning("SfxPlayer : une case de Clips est vide.", this);
+            return;
+        }
+
         source.pitch = 1f + Random.Range(-pitchVariation, pitchVariation);
-        source.PlayOneShot(clips[Random.Range(0, clips.Length)], volume);
+        source.PlayOneShot(chosen, volume);
+        Debug.Log("Son joué : " + chosen.name);
     }
 }

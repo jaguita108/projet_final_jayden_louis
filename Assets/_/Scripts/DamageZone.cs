@@ -27,5 +27,6 @@ public class DamageZone : MonoBehaviour
 
         Debug.Log("Dégâts infligés à : " + health.name);
         health.Remove(damage);
+        Debug.Log($"{health.name} : {health.Value} PV restants");
     }
 }

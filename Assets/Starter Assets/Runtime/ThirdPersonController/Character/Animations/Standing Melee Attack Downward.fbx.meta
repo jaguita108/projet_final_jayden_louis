@@ -59,6 +59,13 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
+      - time: 0.125083
+        functionName: Play
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       - time: 0.3222004
         functionName: HitboxOn
         data: 
@@ -68,13 +75,6 @@ ModelImporter:
         messageOptions: 0
       - time: 0.54420435
         functionName: HitboxOff
-        data: 
-        objectReferenceParameter: {instanceID: 0}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.29666013
-        functionName: Play
         data: 
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0

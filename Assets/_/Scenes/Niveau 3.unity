@@ -2205,7 +2205,6 @@ MonoBehaviour:
   clips:
   - {fileID: 8300000, guid: 3abb181926cb6c1448e6ad64bb397369, type: 3}
   - {fileID: 8300000, guid: 5cba9354f47dea848bd8b854a12ecd5f, type: 3}
-  - {fileID: 8300000, guid: 398c38a89412eb7419dc80795c65048e, type: 3}
   pitchVariation: 0.1
   volume: 1
 --- !u!82 &218980189
